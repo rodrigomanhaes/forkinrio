@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Jasmine Test Runner</title>
+  <link rel="stylesheet" type="text/css" href="lib/jasmine-1.0.2/jasmine.css">
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jasmine.js"></script>
+  <script type="text/javascript" src="lib/jasmine-1.0.2/jasmine-html.js"></script>
+
+  <!-- include source files here... -->
+  <script type="text/javascript" src="src/01/factorial.js"></script>
+  <script type="text/javascript" src="src/02/primes.js"></script>
+  <script type="text/javascript" src="src/03/tabuada.js"></script>
+  <script type="text/javascript" src="src/04/fibonacci.js"></script>
+  <script type="text/javascript" src="src/05/sum.js"></script>
+  <script type="text/javascript" src="src/07/mmc_mdc.js"></script>
+  <script type="text/javascript" src="src/09/roman.js"></script>
+  <script type="text/javascript" src="src/10/rationals.js"></script>
+
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="spec/SpecHelper.js"></script>
+  <script type="text/javascript" src="spec/01/SpecFactorial.js"></script>
+  <script type="text/javascript" src="spec/02/SpecPrimes.js"></script>
+  <script type="text/javascript" src="spec/03/SpecTabuada.js"></script>
+  <script type="text/javascript" src="spec/04/SpecFibonacci.js"></script>
+  <script type="text/javascript" src="spec/05/SpecSum.js"></script>
+  <script type="text/javascript" src="spec/07/SpecMMCMDC.js"></script>
+  <script type="text/javascript" src="spec/09/SpecRoman.js"></script>
+  <script type="text/javascript" src="spec/10/SpecRationals.js"></script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+  jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+  jasmine.getEnv().execute();
+</script>
+
+</body>
+</html>
+
