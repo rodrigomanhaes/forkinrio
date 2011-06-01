@@ -1,0 +1,52 @@
+1) Crie uma classe que modele uma bola e permita trocar e consultar a cor da bola.
+
+2) Crie uma classe que modele um quadrado e permita definir, alterar e consultar o tamanho dos lados e obter a área.
+
+3) Crie uma classe que modele um retângulo e permita definir, alterar e consultar os valores  dos lados, obter a área e obter o perímetro.
+
+4) Crie uma classe que modele uma pessoa e permita definir e obter a idade, peso e altura da pessoa e que permita fazer a pessoa envelhecer, engordar e emagrecer. A cada ano que a pessoa envelhece, sendo a idade dela menor que 21 anos, ela deve crescer 1,5 cm.
+
+5) Crie uma classe que modele uma televisão e que permita ligar e desligar a TV, e alterar e consultar o número do canal e o volume. O número do canal e o volume somente podem ser alterados dentro de uma faixa válida.
+
+6) Crie uma classe que modele uma conta corrente e que permita definir e consultar o numero da conta e o nome correntista, consultar o saldo e fazer depósitos e saques.
+
+7) Crie uma classe que modele uma bomba de combustível e permita definir a capacidade da bomba, o preço do combustível por litro e permita encher a bomba (sempre encher completamente) e consultar sua quantidade de combustível. É necessário também que seja permitido abastecer por valor (retornando a quantidade de combustível abastecida), abastecer por quantidade de litros (retornando o valor a ser pago). Deve ser permitido também alterar o valor do preço por litro. Deve ser tratada a situação de não haver combustível suficiente na bomba para um determinado abastecimento.
+
+8) Crie uma classe que modele um retângulo e permita definir a altura e a largura. A classe tambem deve permitir definir e alterar o ponto que representa o centro do retângulo e permitir que sejam consultados os pontos dos quatro vértices. Um ponto deve ser modelado por outra classe, e deve permitir definir e consultar valores x e y do ponto. Após o centro ser alterado, novas consultas aos vértices devem retornar os valores atualizados. O objeto também deve informar sua área, seu perímetro e se é um quadrado.
+
+9) Crie uma classe chamada Carnivoro que permita que objetos desta classe se alimentem de qualquer coisa (números, booleanos, caracteres, strings ou qualquer outro objeto). O conteúdo do estômago do carnívoro deve poder ser consultado e também deve ser possível digerir os alimentos. A cada digestão o alimento mais antigo deve ser eliminado.
+
+10) Crie uma classe que modele um número complexo para realizar aritmética com números complexos.
+
+Os números complexos têm a forma:
+
+parteReal + parteImaginaria * i, onde i é a raiz quadrada de -1.
+
+Utilize variáveis reais para representar as partes real e imaginária do número. A presença das partes real e imaginária é condição necessária para a criação do objeto. Um número complexo deve ser capaz de realizar:
+
+a) adição com outro número complexo: as partes reais são somadas de um lado e as partes imaginárias são somadas de outro;
+b) subtração com outro número complexo: a parte real do operando direito é subtraída da parte real do operando esquerdo e a parte imaginária do operando direito é subtraída da parte imaginária do operando esquerdo;
+c) multiplicação com outro número complexo;
+d) divisão com outro número complexo;
+e) fornecer uma representação em String do número na forma a + bi, onde a é a parte real e b é a parte imaginária.
+
+As fórmulas para a multiplicação e divisão de números complexos podem ser encontradas em http://en.wikipedia.org/wiki/Complex_number
+
+
+11) Crie uma classe que modele um número racional para realizar aritmética com frações. Um número racional é aquele que pode ser escrito na forma x/y. O valor do numerador e do denominador são obrigatórios. O construtor deve armazenar a fração na forma reduzida (isto é, a fração 2/4 seria armazenada no objeto como 1 no numerador e 2 no denominador). Um número racional também deve ser capaz de realizar:
+
+a) adição com outro número racional;
+b) subtração com outro número racional;
+c) multiplicação com outro número racional;
+d) divisão com outro número racional;
+e) fornecimento de uma representação em String do número, na forma a/b, onde a é o numerador e b é o denominador.
+f) fornecimento de uma representação em String do número em forma de ponto flutuante. Forneça também opção de formatação com o número de
+casas decimais.
+
+12) Crie um objeto número que seja capaz de informar:
+a) se é par;
+b) se é ímpar;
+c) seu valor como número romano;
+d) o termo na série de fibonacci equivalente ao seu valor (por exemplo, o número 4 deve devolver o valor do 4º termo da série);
+e) seu fatorial (implementado em 3 formas: (1) com loop; (2) recursiva; (3) funcional (usando map, reduce etc)).
+
